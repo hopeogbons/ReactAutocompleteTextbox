@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import DropdownMenu from "./DropdownMenu";
 
-class AutoCompleteForm extends Component {
+class AutoCompleteTextBox extends Component {
   state = { input: "", users: [], names: [], selectedName: "" };
 
   async componentDidMount() {
@@ -47,4 +47,4 @@ class AutoCompleteForm extends Component {
   }
 }
 
-export default AutoCompleteForm;
+export default AutoCompleteTextBox;
